@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Subsite 2</title>
+  <script src="node_modules/disqussion/disqussion.js"></script>
+</head>
+<body>
+
+<h1>Disqussion with Identifier "3"</h1>
+<div id="disqus_thread"></div> <!-- > the Disqus widget will be embedded in this container <-->
+
+<br>
+<br>
+<br>
+<br>
+
+Disqussion mit Identifier "1": <span class="disqus-comment-count" data-disqus-identifier="1"><!-- > comment count gets inserted here <--></span><br>
+Disqussion mit Identifier "2": <span class="disqus-comment-count" data-disqus-identifier="2"><!-- > comment count gets inserted here <--></span><br>
+Disqussion mit Identifier "3": <span class="disqus-comment-count" data-disqus-identifier="3"><!-- > comment count gets inserted here <--></span>
+
+<br>
+<br>
+<br>
+<br>
+
+<a href="index.html">Seite 1</a><br>
+<a href="subsite1.html">Seite 2</a><br>
+<a href="subsite2.html">Seite 3</a>
+
+
+<script>
+  var disqus = disqussion({
+    shortname: 'foobars',
+    identifier: 3
+  });
+
+  disqus.createDisqusWidget();
+  disqus.initCommentCounts();
+</script>
+</body>
+</html>

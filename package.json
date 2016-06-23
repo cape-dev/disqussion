@@ -1,7 +1,7 @@
 {
   "name": "disqussion",
   "description": "A tiny wrapper for the DISQUS API.",
-  "version": "0.0.0-semantic-release",
+  "version": "0.0.0-semantically-released",
   "main": "disqussion.js",
   "directories": {
     "example": "example"
